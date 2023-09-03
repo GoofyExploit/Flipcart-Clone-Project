@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lora&family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lora&family=Luxurious+Roman&family=Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 2px 0;
+    position: sticky;
+
+}
+
+img.logo {
+    padding: 0 23px;
+    height: 28px
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    height: 65px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto auto auto 100px;
+}
+
+nav ul li {
+    padding: 0 23px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gold
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 40px;
+    align-items: center;
+    width: 552px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #555;
+    padding: 16px;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin: 2px 32px 0 34px;
+}
+
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    left: 1480px;
+    width:50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.backtotop:hover{
+    background-color: rgb(184, 183, 183);
+}
+
+.container {
+    min-height: calc(100vh - 65px - 44px);
+}
+
+.slider img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 12px auto;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 5px 7px 7px grey;
+}
+.cricket{
+    padding-left: 30px;
+}
+.card {
+    background-color: white;
+    padding: 30px;
+    max-width: 99vw;
+    margin: 17px auto;  
+    border-radius: 9px;
+}
+
+.card-items {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 13px;
+}
+
+.lines{
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+}
+.cricket-bat img {
+    margin: 12px 12px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+
+.stumps img{
+    margin: 12px 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.gloves img{
+    margin: 12px 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.ball img{
+    margin: 12px 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.set img{
+    margin: 12px 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.bed{
+    margin: 0 0 0 150px;
+}
+.bed img{
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+
+.study-table img{
+    margin: 21px 0 0 0;
+    height: 140px;
+    width: 140px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.almirah img{
+    margin: 12px 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.sofa img{
+    margin: 0 81px 0 81px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.book-shelf img{
+    padding-top: 21px;
+    margin: 0 27px 0 30px ;
+    height: 140px;
+    width: 140px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.iphone img{
+    padding: 2px -11px;
+    margin: 12px 52px 12px 53px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.samsung img{
+    margin: 0 58px 0 54px;
+    padding: 2px -11px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.realme img{
+    margin:  auto;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.oppo img{
+    margin:  0 109px 0 108px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+.redmi img{
+    margin:  0 39px 0 31px;
+    height: 160px;
+    width: 160px;
+    border-radius: 9px;
+    box-shadow: 12px 12px 12px solid grey;
+    cursor: pointer;
+}
+footer {
+    background-color: #172337;
+    color: white;
+    height: 44px;
+    font-family: 'Roboto', sans-serif;
+}
